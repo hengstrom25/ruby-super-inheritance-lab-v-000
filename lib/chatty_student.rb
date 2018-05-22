@@ -9,6 +9,7 @@ class ChattyStudent < Student
     super
     i = 0
     loop do 
+      i += 1
       puts "Pick me!"
       
     
