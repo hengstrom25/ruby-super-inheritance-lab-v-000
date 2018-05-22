@@ -10,8 +10,8 @@ class ChattyStudent < Student
     i = 0
     loop do 
       i += 1
+      while i < 10
       puts "Pick me!"
-      if i == 10
     end
   end
       
