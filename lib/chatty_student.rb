@@ -11,6 +11,9 @@ class ChattyStudent < Student
     loop do 
       i += 1
       puts "Pick me!"
+      if i == 10
+    end
+  end
       
     
 end
